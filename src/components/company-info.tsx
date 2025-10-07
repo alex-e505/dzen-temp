@@ -207,7 +207,7 @@ export function CompanyInfo() {
                 <p className="text-sm font-medium text-muted-foreground">
                   Банк
                 </p>
-                <p className="text-base">ООО "Банк Точка"</p>
+                <p className="text-base">ООО &quot;Банк Точка&quot;</p>
               </div>
               <div>
                 <p className="text-sm font-medium text-muted-foreground">БИК</p>

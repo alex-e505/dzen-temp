@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Header() {
@@ -5,9 +6,9 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="max-w-7xl mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-6">
-          <a href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2">
             <span className="text-xl font-bold">Dzen.Team</span>
-          </a>
+          </Link>
         </div>
 
         <div className="flex-1 flex justify-center">
