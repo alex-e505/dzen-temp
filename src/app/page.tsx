@@ -62,17 +62,6 @@ export default function Home() {
                 <DocumentCard key={index} title={doc.title} url={doc.url} />
               ))}
             </div>
-            <p className="text-sm text-muted-foreground mt-6">
-              Документы будут доступны в ближайшее время. Для получения
-              документов прямо сейчас, пожалуйста, свяжитесь с нами по электронной
-              почте{" "}
-              <a
-                href="mailto:main@dzen.team"
-                className="underline hover:text-foreground"
-              >
-                main@dzen.team
-              </a>
-            </p>
           </section>
 
           <Separator className="my-8" />
