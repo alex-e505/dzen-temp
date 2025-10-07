@@ -11,10 +11,6 @@ export default function Home() {
       url: "/privacy-policy",
     },
     {
-      title: "Согласие на обработку персональных данных",
-      url: process.env.NEXT_PUBLIC_CONSENT_URL || "",
-    },
-    {
       title: "Публичная оферта на возмездное оказание услуг",
       url: process.env.NEXT_PUBLIC_OFFER_URL || "",
     },
@@ -23,16 +19,12 @@ export default function Home() {
       url: process.env.NEXT_PUBLIC_EDO_URL || "",
     },
     {
-      title: "Сублицензионный договор-оферта с amoCRM",
-      url: process.env.NEXT_PUBLIC_AMOCRM_URL || "",
+      title: "Сублицензионный договор-оферта для amoCRM",
+      url: "https://drive.google.com/file/d/153fYWuWCdPOOqbXdy727L4WiF_UooIvl/view?usp=sharing",
     },
     {
-      title: "Сублицензионный договор-оферта с Команда F5",
-      url: process.env.NEXT_PUBLIC_F5_URL || "",
-    },
-    {
-      title: "Тарифы по разработке для amoCRM",
-      url: process.env.NEXT_PUBLIC_TARIFFS_URL || "",
+      title: "Сублицензионный договор-оферта для Команда F5",
+      url: "https://drive.google.com/file/d/1ldE8q8bG-Fh2elUWRe8sN69suQ-xmqZO/view?usp=drive_link",
     },
     {
       title: "Соглашение о неразглашении информации",
@@ -65,7 +57,7 @@ export default function Home() {
           {/* Документы */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-6">Юридические документы</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {documents.map((doc, index) => (
                 <DocumentCard key={index} title={doc.title} url={doc.url} />
               ))}

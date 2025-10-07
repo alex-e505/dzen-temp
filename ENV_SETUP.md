@@ -10,12 +10,8 @@
 
 | Переменная | Описание |
 |------------|----------|
-| `NEXT_PUBLIC_CONSENT_URL` | Согласие на обработку персональных данных |
 | `NEXT_PUBLIC_OFFER_URL` | Публичная оферта на возмездное оказание услуг |
 | `NEXT_PUBLIC_EDO_URL` | Соглашение об использовании электронного документооборота |
-| `NEXT_PUBLIC_AMOCRM_URL` | Сублицензионный договор-оферта с amoCRM |
-| `NEXT_PUBLIC_F5_URL` | Сублицензионный договор-оферта с Команда F5 |
-| `NEXT_PUBLIC_TARIFFS_URL` | Тарифы по разработке для amoCRM |
 | `NEXT_PUBLIC_NDA_URL` | Соглашение о неразглашении информации |
 
 ### Локальная разработка
@@ -24,12 +20,8 @@
 
 ```bash
 # Ссылки на юридические документы
-NEXT_PUBLIC_CONSENT_URL=
 NEXT_PUBLIC_OFFER_URL=
 NEXT_PUBLIC_EDO_URL=
-NEXT_PUBLIC_AMOCRM_URL=
-NEXT_PUBLIC_F5_URL=
-NEXT_PUBLIC_TARIFFS_URL=
 NEXT_PUBLIC_NDA_URL=
 ```
 
