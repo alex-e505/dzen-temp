@@ -236,6 +236,34 @@ export function CompanyInfo() {
           </div>
         </CardContent>
       </Card>
+
+      {/* Тарифы по разработке для amoCRM */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Тарифы по разработке для amoCRM</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4">
+            <p className="text-sm font-medium text-muted-foreground">
+              Стоимость работ при расчете по часовой ставке.
+            </p>
+            <div className="space-y-3">
+              <div className="flex justify-between items-center py-2 border-b">
+                <span className="font-medium">Разработка и модификация программ ЭВМ</span>
+                <span className="font-mono text-lg">5 500 ₽/час</span>
+              </div>
+              <div className="flex justify-between items-center py-2 border-b">
+                <span className="font-medium">Адаптация и модификация программ ЭВМ</span>
+                <span className="font-mono text-lg">5 000 ₽/час</span>
+              </div>
+              <div className="flex justify-between items-center py-2">
+                <span className="font-medium">Сопровождение и техническая поддержка amoCRM</span>
+                <span className="font-mono text-lg">4 000 ₽/час</span>
+              </div>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
     </div>
   )
 }
