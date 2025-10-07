@@ -17,7 +17,13 @@ export function Header() {
           </h1>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-4">
+          <Link 
+            href="/privacy-policy" 
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Политика конфиденциальности
+          </Link>
           <ThemeToggle />
         </div>
       </div>

@@ -8,7 +8,7 @@ export default function Home() {
   const documents = [
     {
       title: "Политика обработки персональных данных",
-      url: process.env.NEXT_PUBLIC_POLICY_URL || "",
+      url: "/privacy-policy",
     },
     {
       title: "Согласие на обработку персональных данных",
